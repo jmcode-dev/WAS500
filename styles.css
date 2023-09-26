@@ -1,0 +1,72 @@
+/* 1. The body */
+body {
+    font-size: 16px;
+    font-family: 'Times New Roman', sans-serif;
+}
+/* 2. Headings */ 
+h1, h2 {
+    color: cadetblue;
+    font-weight: bold;
+}
+h3 {
+    color: black;
+    font-weight: bolder;
+}
+/* 3. Unorderly list */
+ul {
+    margin: 2.5;
+    padding: 1;
+}
+
+/* 4. List Items  */
+li {
+    list-style: square;
+}
+
+/* 5. Footer */
+footer {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 15px;
+}
+
+/*6. Paragraph */
+p{
+    margin: left 30px;
+    text-align: justify;
+}
+
+/*7. html */
+html {
+    background-color: antiquewhite;
+}
+/*8. profile-photo */
+
+/*9. Navigation */
+nav ul {
+    list-style: none;
+    text-align: right;
+    
+}
+nav ul li {
+    display: inline;
+    position: relative;
+    margin-right: 10px;
+}
+nav ul li a:hover {
+    text-decoration: none;    
+}
+/*10. header */
+.my-header {
+    background-color: lightgray;
+    display: flex;
+    align-items: first baseline;
+    padding: 10px 20px;
+}
+.my-banner {
+    background-image: url(my_banner.png);
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+
+}
